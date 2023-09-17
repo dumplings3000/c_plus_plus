@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/swap.h
+iostream
+-
+
+/home/sam/c_plus_plus/main.cpp
+swap.h
+/home/sam/c_plus_plus/swap.h
+
+/home/sam/c_plus_plus/src/swap.cpp
+swap.h
+/home/sam/c_plus_plus/src/swap.h
+
