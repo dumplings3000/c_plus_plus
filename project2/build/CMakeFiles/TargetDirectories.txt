@@ -1,0 +1,3 @@
+/home/sam/c_plus_plus/project2/build/CMakeFiles/edit_cache.dir
+/home/sam/c_plus_plus/project2/build/CMakeFiles/rebuild_cache.dir
+/home/sam/c_plus_plus/project2/build/CMakeFiles/shoot.dir

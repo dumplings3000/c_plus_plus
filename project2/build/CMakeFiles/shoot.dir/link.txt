@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/shoot.dir/main.cpp.o CMakeFiles/shoot.dir/src/gun.cpp.o CMakeFiles/shoot.dir/src/solder.cpp.o  -o shoot 

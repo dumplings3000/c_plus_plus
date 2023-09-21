@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/gun.h
+string
+-
+
+../include/solder.h
+string
+-
+gun.h
+-
+
+/home/sam/c_plus_plus/project2/src/gun.cpp
+gun.h
+/home/sam/c_plus_plus/project2/src/gun.h
+iostream
+-
+
+/home/sam/c_plus_plus/project2/src/solder.cpp
+solder.h
+/home/sam/c_plus_plus/project2/src/solder.h
+iostream
+-
+
